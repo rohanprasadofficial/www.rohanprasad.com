@@ -3,23 +3,31 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     const t = new Date().getHours();
-
+    const sitelink = "https://www.rohanprasad.com";
+    let wish;
     if (t > 20) {
-      return <p>Good Night</p>;
+      wish = "good night !";
     } else if (t > 17) {
-      return <p>Good Evening</p>;
+      wish = "great evening !";
     } else if (t >= 12) {
-      return (
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12" />
-            Made with love by logarithm sd sef sad
+      wish = "great afternoon !";
+    } else {
+      wish = "great day ahead !";
+    }
+
+    return (
+      <div className="container-fluid text-center text-monospace small">
+        <div className="text-center row">
+          <div className="col">Thanks for visiting ! Have a {wish} 😇</div>
+        </div>
+        <div className="row">
+          <div className="col">
+            Made with <i class="fab fa-react"> </i> by{" "}
+            <a href={sitelink}>Logarithm</a>
           </div>
         </div>
-      );
-    } else {
-      return <p>Morning</p>;
-    }
+      </div>
+    );
   }
 }
 

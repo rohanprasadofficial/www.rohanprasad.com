@@ -535,3 +535,7 @@ a:visited {
 footer {
   align-content: center;
 }
+
+.sicon {
+  padding: 1em;
+}
