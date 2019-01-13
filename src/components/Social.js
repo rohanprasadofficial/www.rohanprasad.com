@@ -21,13 +21,13 @@ class Social extends Component {
             <i className="fab fa-instagram sicon" />
           </a>
           <a href={sociallinks.linkedin} target={sociallinks.target}>
-            <i class="fab fa-linkedin-in sicon" />
+            <i className="fab fa-linkedin-in sicon" />
           </a>
           <a href={sociallinks.twitter} target={sociallinks.target}>
-            <i class="fab fa-twitter sicon" />
+            <i className="fab fa-twitter sicon" />
           </a>
           <a href={sociallinks.github} target={sociallinks.target}>
-            <i class="fab fa-github sicon" />
+            <i className="fab fa-github sicon" />
           </a>
         </div>
       </div>

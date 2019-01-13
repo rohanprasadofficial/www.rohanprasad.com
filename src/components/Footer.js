@@ -22,7 +22,7 @@ class Footer extends Component {
         </div>
         <div className="row">
           <div className="col">
-            Made with <i class="fab fa-react"> </i> by{" "}
+            Made with <i className="fab fa-react"> </i> by{" "}
             <a href={sitelink}>Logarithm</a>
           </div>
         </div>

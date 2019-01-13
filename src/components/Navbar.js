@@ -5,14 +5,16 @@ class Navbar extends Component {
   constructor(props) {
     super();
     this.state = {
-      className: "hideNav"
+      className: "hideNav",
+      animate: "animated"
     };
     this.showNav = this.showNav.bind(this);
   }
 
   showNav() {
     this.setState({
-      className: this.state.className === "showNav" ? "hideNav" : "showNav"
+      className: this.state.className === "showNav" ? "hideNav" : "showNav",
+      animate: this.state.animate === "animated" ? "" : "animated"
     });
   }
 
