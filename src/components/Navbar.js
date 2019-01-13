@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
+import Landing from "./Landing";
 class Navbar extends Component {
   constructor(props) {
     super();
@@ -63,6 +64,7 @@ class Navbar extends Component {
                 </li>
               </ul>
             </div>
+            <Landing />
           </div>
         </nav>
       </div>

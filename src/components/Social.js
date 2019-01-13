@@ -12,22 +12,24 @@ class Social extends Component {
     };
 
     return (
-      <div className="socials">
-        <a href={sociallinks.facebook} target={sociallinks.target}>
-          <i className="fab fa-facebook sicon" />
-        </a>
-        <a href={sociallinks.instagram} target={sociallinks.target}>
-          <i className="fab fa-instagram sicon" />
-        </a>
-        <a href={sociallinks.linkedin} target={sociallinks.target}>
-          <i class="fab fa-linkedin-in sicon" />
-        </a>
-        <a href={sociallinks.twitter} target={sociallinks.target}>
-          <i class="fab fa-twitter sicon" />
-        </a>
-        <a href={sociallinks.github} target={sociallinks.target}>
-          <i class="fab fa-github sicon" />
-        </a>
+      <div className="row">
+        <div className="socials col-sm">
+          <a href={sociallinks.facebook} target={sociallinks.target}>
+            <i className="fab fa-facebook sicon" />
+          </a>
+          <a href={sociallinks.instagram} target={sociallinks.target}>
+            <i className="fab fa-instagram sicon" />
+          </a>
+          <a href={sociallinks.linkedin} target={sociallinks.target}>
+            <i class="fab fa-linkedin-in sicon" />
+          </a>
+          <a href={sociallinks.twitter} target={sociallinks.target}>
+            <i class="fab fa-twitter sicon" />
+          </a>
+          <a href={sociallinks.github} target={sociallinks.target}>
+            <i class="fab fa-github sicon" />
+          </a>
+        </div>
       </div>
     );
   }
