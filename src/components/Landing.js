@@ -4,7 +4,7 @@ import Social from "./Social";
 class Landing extends Component {
   render() {
     return (
-      <div>
+      
         <div className="container-fluid ">
           <div className="col-sm-12 no-gutter text-center fill">
             <div className="vcenter">
@@ -26,7 +26,7 @@ class Landing extends Component {
             </div>
           </div>
         </div>
-      </div>
+     
     );
   }
 }
