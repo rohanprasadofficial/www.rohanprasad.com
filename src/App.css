@@ -538,8 +538,18 @@ a:visited {
 
 .footer {
   align-content: center;
+  margin-bottom: 10px;
 }
 
 .sicon {
   padding: 0.8em;
+}
+
+.mail {
+  height: 5%;
+  width: 5%;
+}
+
+.cfooter {
+  margin-top: 30px;
 }
