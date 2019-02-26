@@ -15,7 +15,7 @@ class Contact extends Component {
                   alt="mail"
                 /> */}
               <h3>Contact</h3>
-              <small id="emailHelp" class="form-text text-muted">
+              <small class="form-text text-muted">
                 Have a project for me ?
               </small>
               <p>I would love to hear from you. </p>
