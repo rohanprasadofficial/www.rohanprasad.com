@@ -6,28 +6,28 @@ class Projects extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div class="col-md-1 col-sm-12">
+          <div className="col-md-1 col-sm-12">
             <h5>
               <bold>Education</bold>
             </h5>
           </div>
-          <div class="col-md-9 col-sm-12">
-            <div class="text-center">
+          <div className="col-md-9 col-sm-12">
+            <div className="text-center">
               <div className="text-center">
-                <span class="badge badge-pill badge-secondary">
+                <span className="badge badge-pill badge-secondary">
                   Undergraduate
                 </span>
               </div>
               <small>Sikkim Manipal Institute of Technology, Sikkim</small>
               <sup> 2016-2020</sup>
               <small>
-                <div class="text-muted">B.Tech (Computer Science)</div>
+                <div className="text-muted">B.Tech (Computer Science)</div>
               </small>
               <br />
             </div>
-            <div class="text-center">
+            <div className="text-center">
               <div className="text-center">
-                <span class="badge badge-pill badge-secondary">
+                <span className="badge badge-pill badge-secondary">
                   Senior Secondary
                 </span>
               </div>
@@ -40,11 +40,13 @@ class Projects extends Component {
             </div>
             <div class="text-center">
               <div className="text-center">
-                <span class="badge badge-pill badge-secondary">Secondary</span>
+                <span className="badge badge-pill badge-secondary">
+                  Secondary
+                </span>
               </div>
-              <small>Caesar School , Malbazar</small> <sup> 2004-2014</sup>
+              <small>Caesar School , Malbazar </small> <sup> 2004-2014</sup>
               <small>
-                <div class="text-muted">(AISSCE) </div>
+                <div className="text-muted">(AISSCE) </div>
               </small>
               <br />
             </div>
@@ -128,9 +130,11 @@ class Projects extends Component {
             <br />
           </div>
 
-          <div class="col-md">
+          <div className="col-md">
             <div className="text-center">
-              <span class="badge badge-pill badge-secondary">Conneqtor</span>
+              <span className="badge badge-pill badge-secondary">
+                Conneqtor
+              </span>
               <sup> Nodejs</sup>
               <br />
             </div>

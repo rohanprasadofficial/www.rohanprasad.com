@@ -26,7 +26,7 @@ class Aboutme extends Component {
               </p>
               <small class="form-text text-muted">
                 P.S : I am just driven by designing amazing UI and a cup of
-                coffee.{" "}
+                coffee.
               </small>
             </center>
           </div>
