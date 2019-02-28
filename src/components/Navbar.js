@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../App.css";
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter, Route, Link } from "react-router-dom";
 import Aboutme from "./Aboutme";
 import Landing from "./Landing";
 import Projects from "./Projects";
@@ -25,7 +25,7 @@ class Navbar extends Component {
 
   render() {
     return (
-      <Router>
+      <HashRouter>
         <div>
           <nav className="navbar navbar-default navbar-fixed-top">
             <div className="col-md-12">
@@ -69,7 +69,7 @@ class Navbar extends Component {
           <Route path="/project" component={Projects1} />
           <Route path="/contact" component={Contact} />
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
