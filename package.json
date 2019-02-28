@@ -2,7 +2,7 @@
   "name": "rohanpd",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rohanprasad.com",
+  "homepage": "https://rohanpd4.github.com/LogBlog",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
     "@fortawesome/free-solid-svg-icons": "^5.6.3",
@@ -20,7 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d public"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
