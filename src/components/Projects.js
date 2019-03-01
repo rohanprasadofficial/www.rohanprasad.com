@@ -8,7 +8,7 @@ class Projects extends Component {
         <div className="row">
           <div className="col-md-1 col-sm-12">
             <h5>
-              <bold>Education</bold>
+              <strong>Education</strong>
             </h5>
           </div>
           <div className="col-md-9 col-sm-12">
@@ -34,11 +34,11 @@ class Projects extends Component {
               <small>Caesar School , Malbazar</small>
               <sup> 2014-2016</sup>
               <small>
-                <div class="text-muted">(AISSCE) </div>
+                <div className="text-muted">(AISSCE) </div>
               </small>
               <br />
             </div>
-            <div class="text-center">
+            <div className="text-center">
               <div className="text-center">
                 <span className="badge badge-pill badge-secondary">
                   Secondary
@@ -60,14 +60,14 @@ class Projects extends Component {
          */}
 
         <div className="row">
-          <div class="col-md-1 col-sm-12">
+          <div className="col-md-1 col-sm-12">
             <h5>
-              <bold>Learnings</bold>
+              <strong>Learnings</strong>
             </h5>
           </div>
-          <div class="col-md">
+          <div className="col-md">
             <div className="text-center">
-              <span class="badge badge-pill badge-secondary">
+              <span className="badge badge-pill badge-secondary">
                 Introduction to Modern App Development
               </span>
               <br />
@@ -76,9 +76,9 @@ class Projects extends Component {
 
             <br />
           </div>
-          <div class="col-md">
+          <div className="col-md">
             <div className="text-center">
-              <span class="badge badge-pill badge-secondary">
+              <span className="badge badge-pill badge-secondary">
                 Introduction to Machine Learning
               </span>
               <br />
@@ -87,9 +87,9 @@ class Projects extends Component {
 
             <br />
           </div>
-          <div class="col-md">
+          <div className="col-md">
             <div className="text-center">
-              <span class="badge badge-pill badge-secondary">
+              <span className="badge badge-pill badge-secondary">
                 Android App Development
               </span>
               <br />
@@ -105,24 +105,28 @@ class Projects extends Component {
           */}
 
         <div className="row">
-          <div class="col-md">
+          <div className="col-md">
             <h5>
               <strong>Projects</strong>
             </h5>
           </div>
 
-          <div class="col-md">
+          <div className="col-md">
             <div className="text-center">
-              <span class="badge badge-pill badge-secondary">SMITConnect</span>
+              <span className="badge badge-pill badge-secondary">
+                SMITConnect
+              </span>
               <sup> Android</sup>
               <br />
             </div>
 
             <br />
           </div>
-          <div class="col-md">
+          <div className="col-md">
             <div className="text-center">
-              <span class="badge badge-pill badge-secondary">TheConveyor</span>
+              <span className="badge badge-pill badge-secondary">
+                TheConveyor
+              </span>
               <sup> Nodejs</sup>
               <br />
             </div>
@@ -142,18 +146,18 @@ class Projects extends Component {
             <br />
           </div>
 
-          <div class="col-md">
+          <div className="col-md">
             <div className="text-center">
-              <span class="badge badge-pill badge-secondary">RailWake</span>
+              <span className="badge badge-pill badge-secondary">RailWake</span>
               <sup> Android</sup>
               <br />
             </div>
 
             <br />
           </div>
-          <div class="col-md">
+          <div className="col-md">
             <div className="text-center">
-              <span class="badge badge-pill badge-secondary">BitTrace</span>
+              <span className="badge badge-pill badge-secondary">BitTrace</span>
               <sup> Android</sup>
               <br />
             </div>
@@ -161,9 +165,9 @@ class Projects extends Component {
             <br />
           </div>
 
-          <div class="col-md">
+          <div className="col-md">
             <div className="text-center">
-              <span class="badge badge-pill badge-secondary">
+              <span className="badge badge-pill badge-secondary">
                 TechNewsReader
               </span>
               <sup> Android</sup>
@@ -173,9 +177,9 @@ class Projects extends Component {
             <br />
           </div>
 
-          <div class="col-md">
+          <div className="col-md">
             <div className="text-center">
-              <span class="badge badge-pill badge-secondary">
+              <span className="badge badge-pill badge-secondary">
                 Guess the Number
               </span>
               <sup> Javascript</sup>
@@ -185,9 +189,9 @@ class Projects extends Component {
             <br />
           </div>
 
-          <div class="col-md">
+          <div className="col-md">
             <div className="text-center">
-              <span class="badge badge-pill badge-secondary">
+              <span className="badge badge-pill badge-secondary">
                 Mail System Design
               </span>
               <sup>Algortihms</sup>

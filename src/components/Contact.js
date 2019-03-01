@@ -15,7 +15,7 @@ class Contact extends Component {
                   alt="mail"
                 /> */}
               <h3>Contact</h3>
-              <small class="form-text text-muted">
+              <small className="form-text text-muted">
                 Have a project for me ?
               </small>
               <p>I would love to hear from you. </p>
@@ -27,7 +27,7 @@ class Contact extends Component {
               <form
                 method="POST"
                 action="https://formspree.io/prasadrohan04@gmail.com"
-                class="contact-form"
+                className="contact-form"
               >
                 <div className="form-group">
                   <input

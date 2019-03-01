@@ -15,7 +15,7 @@ class Aboutme extends Component {
                 alt="dpimage"
               />
 
-              <small class="form-text text-muted">
+              <small className="form-text text-muted">
                 It's me ! Trying hard to smile.
               </small>
               <p>
@@ -24,7 +24,7 @@ class Aboutme extends Component {
                 Science and Engineering . My interest lies in Android , Web
                 Development, Competitive Coding & Algorithms.
               </p>
-              <small class="form-text text-muted">
+              <small className="form-text text-muted">
                 P.S : I am just driven by designing amazing UI and a cup of
                 coffee.
               </small>
@@ -32,7 +32,7 @@ class Aboutme extends Component {
           </div>
         </div>
 
-        <div class="container">
+        <div className="container">
           <div className="text-center">
             <hr />
             Currently Exploring <hr />
@@ -50,7 +50,7 @@ class Aboutme extends Component {
             </div>
           </div>
         </div>
-        <div class="container">
+        <div className="container">
           <div className="text-center">
             <hr />
             Skills <hr />
