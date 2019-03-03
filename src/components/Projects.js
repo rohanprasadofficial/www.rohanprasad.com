@@ -46,7 +46,7 @@ class Projects extends Component {
               </div>
               <small>Caesar School , Malbazar </small> <sup> 2004-2014</sup>
               <small>
-                <div className="text-muted">(AISSCE) </div>
+                <div className="text-muted">(AISSE) </div>
               </small>
               <br />
             </div>
@@ -194,7 +194,7 @@ class Projects extends Component {
               <span className="badge badge-pill badge-secondary">
                 Mail System Design
               </span>
-              <sup>Algortihms</sup>
+              <sup>Algorithms</sup>
               <br />
             </div>
 
