@@ -6,7 +6,7 @@ class Social extends Component {
       facebook: "https://www.facebook.com/rohan.prasad3",
       twitter: "https://twitter.com/rohanprasad04",
       instagram: "https://www.instagram.com/__logarithm__/",
-      linkedin: "https://www.linkedin.com/in/rohan-prasad-b66361140/",
+      linkedin: "https://www.linkedin.com/in/rohanpd4/",
       github: "https://github.com/rohanpd4",
       target: "_blank"
     };
