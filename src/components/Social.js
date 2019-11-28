@@ -3,11 +3,11 @@ import React, { Component } from "react";
 class Social extends Component {
   render() {
     const sociallinks = {
-      facebook: "https://www.facebook.com/rohan.prasad3",
-      twitter: "https://twitter.com/rohanprasad04",
-      instagram: "https://www.instagram.com/__logarithm__/",
-      linkedin: "https://www.linkedin.com/in/rohanpd4/",
-      github: "https://github.com/rohanpd4",
+      facebook: "https://www.facebook.com/rohanprasadofficial",
+      twitter: "https://twitter.com/rohanpdofficial",
+      instagram: "https://www.instagram.com/rohanprasadofficial/",
+      linkedin: "https://www.linkedin.com/in/rohanprasadofficial/",
+      github: "https://github.com/rohanprasadofficial",
       target: "_blank"
     };
 
