@@ -19,7 +19,7 @@ class Aboutme extends Component {
                 It's me ! Trying hard to smile.
               </small>
               <p>
-                I am prefinal year student at Sikkim Manipal Institute Of
+                I am final year student at Sikkim Manipal Institute Of
                 Technology ,Sikkim currently pursuing bachelors in Computer
                 Science and Engineering . My interest lies in Android , Web
                 Development, Competitive Coding & Algorithms.
@@ -46,7 +46,7 @@ class Aboutme extends Component {
               <li className="text-center">Android Prototyping</li>
             </div>
             <div className="col-md">
-              <li className="text-center">Statistics & Data Analysis</li>
+              <li className="text-center">AdobeXD , Illustrator etc.</li>
             </div>
           </div>
         </div>
