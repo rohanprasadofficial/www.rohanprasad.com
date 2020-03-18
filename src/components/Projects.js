@@ -59,47 +59,7 @@ class Projects extends Component {
           Learning Section
          */}
 
-        <div className="row">
-          <div className="col-md-1 col-sm-12">
-            <h5>
-              <strong>Learnings</strong>
-            </h5>
-          </div>
-          <div className="col-md">
-            <div className="text-center">
-              <span className="badge badge-pill badge-secondary">
-                Introduction to Modern App Development
-              </span>
-              <br />
-              <small>(NPTEL)</small>
-            </div>
-
-            <br />
-          </div>
-          <div className="col-md">
-            <div className="text-center">
-              <span className="badge badge-pill badge-secondary">
-                Introduction to Machine Learning
-              </span>
-              <br />
-              <small>(NPTEL)</small>
-            </div>
-
-            <br />
-          </div>
-          <div className="col-md">
-            <div className="text-center">
-              <span className="badge badge-pill badge-secondary">
-                Android App Development
-              </span>
-              <br />
-              <small>(Udemy)</small>
-            </div>
-
-            <br />
-          </div>
-        </div>
-        <hr />
+       
         {/**
           Projects
           */}
@@ -110,6 +70,59 @@ class Projects extends Component {
               <strong>Projects</strong>
             </h5>
           </div>
+
+          <div className="col-md">
+            <div className="text-center">
+              <span className="badge badge-pill badge-secondary">
+                quotes
+              </span>
+              <sup> FlutterPackage</sup>
+              <br />
+            </div>
+
+            <br />
+          </div>
+
+
+          <div className="col-md">
+            <div className="text-center">
+              <span className="badge badge-pill badge-secondary">
+                CareerGuider
+              </span>
+              <sup> Android</sup>
+              <br />
+            </div>
+
+            <br />
+          </div>
+
+
+
+
+          <div className="col-md">
+            <div className="text-center">
+              <span className="badge badge-pill badge-secondary">
+                AirTicket
+              </span>
+              <sup> Android</sup>
+              <br />
+            </div>
+
+            <br />
+          </div>
+
+          <div className="col-md">
+            <div className="text-center">
+              <span className="badge badge-pill badge-secondary">
+                AirTicket Backend
+              </span>
+              <sup> Nodejs</sup>
+              <br />
+            </div>
+
+            <br />
+          </div>
+
 
           <div className="col-md">
             <div className="text-center">
