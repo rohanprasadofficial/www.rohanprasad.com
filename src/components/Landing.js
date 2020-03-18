@@ -18,6 +18,7 @@ class Landing extends Component {
 
             <p className="text-center ">
               I'm a developer , loves to learn and create things out of the box.
+              I'm a YouTuber too 😉 and an Opensource Enthusiast. 
               <br />
               Most used toolkit : Charged laptop with an internet connection 😉
               .

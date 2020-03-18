@@ -19,10 +19,11 @@ class Aboutme extends Component {
                 It's me ! Trying hard to smile.
               </small>
               <p>
-                I am final year student at Sikkim Manipal Institute Of
-                Technology ,Sikkim currently pursuing bachelors in Computer
-                Science and Engineering . My interest lies in Android , Web
-                Development, Competitive Coding & Algorithms.
+                I am Full Stack Engineer and Freelancer.
+                <br/>
+                I am also a YouTuber which comes from passion to teach people to code.
+                My interest lies in Web & App Development, Competitive Coding & Algorithms.
+                
               </p>
               <small className="form-text text-muted">
                 P.S : I am just driven by designing amazing UI and a cup of
@@ -40,10 +41,10 @@ class Aboutme extends Component {
 
           <div className="row">
             <div className="col-md text-center">
-              <li>Neural Networks & Deep Learning</li>
+              <li>DevOps</li>
             </div>
             <div className="col-md">
-              <li className="text-center">Android Prototyping</li>
+              <li className="text-center">Golang</li>
             </div>
             <div className="col-md">
               <li className="text-center">AdobeXD , Illustrator etc.</li>
@@ -64,6 +65,9 @@ class Aboutme extends Component {
               <li className="text-center">Java</li>
               <li className="text-center">MySQL</li>
               <li className="text-center">Python</li>
+              <li className="text-center">Flutter</li>
+              <li className="text-center">Dart</li>
+
 
               <li className="text-center">Javascript</li>
               <li className="text-center">MERN</li>

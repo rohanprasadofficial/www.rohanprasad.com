@@ -8,6 +8,8 @@ class Social extends Component {
       instagram: "https://www.instagram.com/rohanprasadofficial/",
       linkedin: "https://www.linkedin.com/in/rohanprasadofficial/",
       github: "https://github.com/rohanprasadofficial",
+      youtube: "https://www.youtube.com/rohanprasadofficial",
+      
       target: "_blank"
     };
 
@@ -28,6 +30,9 @@ class Social extends Component {
           </a>
           <a href={sociallinks.github} target={sociallinks.target}>
             <i className="fab fa-github sicon" />
+          </a>
+          <a href={sociallinks.youtube} target={sociallinks.target}>
+            <i className="fab fa-youtube sicon" />
           </a>
         </div>
       </div>
